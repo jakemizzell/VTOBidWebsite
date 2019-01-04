@@ -1,0 +1,37 @@
+html {
+    color: blue;
+  }
+
+textarea {
+    width: 1000px;
+    height: 400px;
+}
+
+.submit {
+    background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  background-color: #ce0606;
+}
+
+.submit:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+/* Non-Demo Styles */
+body {
+  display: inline-block;
+  align-items: center;
+}
+
+.name {
+    display: none;
+}
